@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    color: rgb(27, 238, 238);
+    background-color: rgb(17, 2, 2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(11, 5, 92);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0; /* Corrected unit to 'px' */
+    text-align: center;
+}
+
+img {
+    width: 100%; /* Keeps images within their container */
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #b1a505;
+}
+
+.flex-item {
+    background-color: #fac178;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #08791b;
+    flex: 1 1 200px; /* It allows items to grow, shrink and have a base width */
+}
+
+#dynamicText {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.highlighted {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#container {
+    margin-top: 20px;
+    border: 1px dashed #f4fac3;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #d1d9f0;
+}
